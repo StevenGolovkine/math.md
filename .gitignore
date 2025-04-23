@@ -7,4 +7,6 @@
 # LaTeX files
 *.log
 
-package-lock.json
+.scripts/js/package-lock.json
+.scripts/js/node_modules
+.hugo_build.lock
