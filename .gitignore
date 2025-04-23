@@ -6,3 +6,5 @@
 
 # LaTeX files
 *.log
+
+package-lock.json
