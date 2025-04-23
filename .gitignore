@@ -1,0 +1,5 @@
+# .gitignore
+
+
+# macOS files
+.DS_Store
