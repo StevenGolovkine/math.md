@@ -2,6 +2,10 @@ baseURL: "https://stevengolovkine.github.io/math.md"
 languageCode: "en-us"
 title: "math.md"
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
