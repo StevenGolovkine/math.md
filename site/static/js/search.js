@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
     //     localStorage.setItem('recentFiles', JSON.stringify(allFiles));
     // } else {
-    fetch('./js/allFiles.json').then(response => response.json())
+    fetch('./allFiles.json').then(response => response.json())
     .then((data) => {
         // recentFiles = JSON.stringify(data)
         // localStorage.setItem('recentFiles', recentFiles);

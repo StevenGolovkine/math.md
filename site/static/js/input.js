@@ -63,7 +63,7 @@ document.addEventListener('keyup', function(e) {
     }
 });
 
-document.getElementById('mainPage').addEventListener('click', function(e) {
+document.getElementById('searchBox').addEventListener('click', function(e) {
     searchClear();
 });
 

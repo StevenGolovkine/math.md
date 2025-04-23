@@ -21,7 +21,7 @@ window.MathJax = {
 };
 
 (function() {
-    fetch('/math.md/preamble.sty')
+    fetch('./preamble.sty')
         .then(response => response.text())
         .then((data) => {
             var preamble = document.getElementById('preamble');
