@@ -1,0 +1,29 @@
+baseURL: "https://stevengolovkine.github.io/math.md"
+languageCode: "en-us"
+title: "math.md"
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - $$
+            - $$
+          inline: 
+          - - $
+            - $
+    renderer:
+      unsafe: true
+
+module:
+  mounts:
+    - source: notes
+      target: content
+    - source: site/archetypes
+      target: archetypes
+    - source: site/static
+      target: static
+    - source: site/layouts
+      target: layouts
