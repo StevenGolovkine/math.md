@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on math.md</title>
-    <link>http://localhost:1313/math.md/categories/</link>
+    <link>https://stevengolovkine.github.io/math.md/categories/</link>
     <description>Recent content in Categories on math.md</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/math.md/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stevengolovkine.github.io/math.md/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
