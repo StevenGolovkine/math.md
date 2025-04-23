@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
     //     localStorage.setItem('recentFiles', JSON.stringify(allFiles));
     // } else {
-    fetch('/mathwiki/allFiles.json').then(response => response.json())
+    fetch('./js/allFiles.json').then(response => response.json())
     .then((data) => {
         // recentFiles = JSON.stringify(data)
         // localStorage.setItem('recentFiles', recentFiles);
@@ -127,7 +127,7 @@ export function searchScroll(amount) {
 
 export function searchOpen(newTab) {
     var element = document.getElementById('searchItem' + curSearchItemActive);
-    var path = window.origin + '/mathwiki/' + element.getAttribute('href');
+    var path = window.origin + '/math.md/' + element.getAttribute('href');
 
     if (curSearchLength > 0) {
         searchClear();

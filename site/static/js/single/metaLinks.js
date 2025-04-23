@@ -108,7 +108,7 @@ function newMetaLink(link) {
     var title = link.getAttribute('title');
     if (!title) {
         title = link.href
-            .replace(/.*mathwiki\//, '').replace(/.md.*/, '');
+            .replace(/.*math.md\//, '').replace(/.md.*/, '');
     }
 
     var mathLink = link.getAttribute('mathLink');
