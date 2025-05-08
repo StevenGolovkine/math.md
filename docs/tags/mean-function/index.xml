@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mean-Function on math.md</title>
+    <link>https://stevengolovkine.github.io/math.md/tags/mean-function/</link>
+    <description>Recent content in Mean-Function on math.md</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://stevengolovkine.github.io/math.md/tags/mean-function/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convergence rate of the estimator of the mean function</title>
+      <link>https://stevengolovkine.github.io/math.md/1746726871-convergencemeanfda/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/1746726871-convergencemeanfda/</guid>
+      <description>&lt;h1 id=&#34;local-polynomials&#34;&gt;Local polynomials&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>
