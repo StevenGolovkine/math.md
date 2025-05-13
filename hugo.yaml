@@ -6,36 +6,16 @@ caches:
   images:
     dir: :cacheDir/images
 
-markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    extensions:
-      passthrough:
-        delimiters:
-          block:
-          - - \[
-            - \]
-          - - $$
-            - $$
-          inline:
-          - - \(
-            - \)
-          - - $
-            - $
-        enable: true
-    renderer:
-      unsafe: true
-
-params:
-  math: true
-
 module:
-  mounts:
-    - source: notes
-      target: content
-    - source: site/archetypes
-      target: archetypes
-    - source: site/static
-      target: static
-    - source: site/layouts
-      target: layouts
+  hugoVersion:
+    extended: false
+    min: "0.116.0"
+
+menus:
+  main:
+  - name: Notes
+    pageRef: /notes
+    weight: 10
+  - name: Posts
+    pageRef: /posts
+    weight: 20
