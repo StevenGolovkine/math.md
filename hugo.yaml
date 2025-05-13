@@ -1,6 +1,8 @@
 baseURL: "https://stevengolovkine.github.io/math.md"
 languageCode: "en-us"
 title: "math.md"
+copyright: "Steven Golovkine"
+enableRobotsTXT: true
 
 caches:
   images:
@@ -10,6 +12,16 @@ module:
   hugoVersion:
     extended: false
     min: "0.116.0"
+
+outputs:
+  home:
+  - html
+  section:
+  - html
+  - rss
+  - json
+  page:
+  - html
 
 menus:
   main:
@@ -22,3 +34,32 @@ menus:
   - name: Graph
     pageRef: /graph
     weight: 40
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+  highlight:
+    noClasses: false
+    style: tokyonight-night
+
+params:
+  dateFormat: :date_long
+  showGraph: true
+  author:
+    name: Steven Golovkine
+    email: steven_golovkine@icloud.com
+  home:
+    showRecentPosts: false
+    recentPostsLimit: 0
+    showRecentNotes: true
+    recentNotesLimit: 5
+    showCategoryFilter: true
+  footer:
+    creativeCommonsLicense: by_nc_sa
+    showCreativeCommonsIcons: true
+    showThemeCredit: true
+  robotstxt:
+    blockCC: true
+    blockAI: true
