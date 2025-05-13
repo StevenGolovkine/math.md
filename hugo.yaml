@@ -15,7 +15,10 @@ menus:
   main:
   - name: Notes
     pageRef: /notes
-    weight: 10
+    weight: 20
   - name: Posts
     pageRef: /posts
-    weight: 20
+    weight: 30
+  - name: Graph
+    pageRef: /graph
+    weight: 40
