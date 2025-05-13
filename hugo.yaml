@@ -12,6 +12,11 @@ module:
   hugoVersion:
     extended: false
     min: "0.116.0"
+  mounts:
+  - source: static
+    target: static
+  - source: figures
+    target: static/figures
 
 outputs:
   home:

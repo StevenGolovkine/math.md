@@ -42,4 +42,4 @@ ylims!(0, 100)
 xlabel!("\$x\$")
 ylabel!("\$f(x)\$")
 
-savefig("../figures/o-orders.svg")
+savefig("../static/figures/o-orders.svg")
