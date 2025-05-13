@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on math.md</title>
+    <link>https://stevengolovkine.github.io/math.md/tags/</link>
+    <description>Recent content in Tags on math.md</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://stevengolovkine.github.io/math.md/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notation</title>
+      <link>https://stevengolovkine.github.io/math.md/tags/notation/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/tags/notation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orders-Approximation</title>
+      <link>https://stevengolovkine.github.io/math.md/tags/orders-approximation/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/tags/orders-approximation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Convergence-Rate</title>
+      <link>https://stevengolovkine.github.io/math.md/tags/convergence-rate/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/tags/convergence-rate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functional-Data</title>
+      <link>https://stevengolovkine.github.io/math.md/tags/functional-data/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/tags/functional-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mean-Function</title>
+      <link>https://stevengolovkine.github.io/math.md/tags/mean-function/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/tags/mean-function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psplines</title>
+      <link>https://stevengolovkine.github.io/math.md/tags/psplines/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/tags/psplines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>https://stevengolovkine.github.io/math.md/tags/review/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Covariance-Function</title>
+      <link>https://stevengolovkine.github.io/math.md/tags/covariance-function/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/tags/covariance-function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://stevengolovkine.github.io/math.md/tags/test/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/tags/test/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

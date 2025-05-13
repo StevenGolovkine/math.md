@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review on math.md</title>
+    <link>https://stevengolovkine.github.io/math.md/tags/review/</link>
+    <description>Recent content in Review on math.md</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://stevengolovkine.github.io/math.md/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asymptotic properties of penalized splines for functional data</title>
+      <link>https://stevengolovkine.github.io/math.md/1746725285-asymptoticproppsplinesfda/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/1746725285-asymptoticproppsplinesfda/</guid>
+      <description>&lt;p&gt;This authors derive the asymptotic properties of the mean and covariance P-splines estimators of the mean and covariance functions of functional datasets. In particular, they study the $L_2$ and uniform convergence of these estimators.&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;&lt;strong&gt;Conclusion of the paper&lt;/strong&gt;: Convergence rates are minimax optimal for the mean function and are comparable to those using other smoothing methods for the covariance function.&lt;/p&gt;&#xA;&lt;p&gt;@xiaoAsymptoticPropertiesPenalized2019&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

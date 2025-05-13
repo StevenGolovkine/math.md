@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orders-Approximation on math.md</title>
+    <link>https://stevengolovkine.github.io/math.md/tags/orders-approximation/</link>
+    <description>Recent content in Orders-Approximation on math.md</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://stevengolovkine.github.io/math.md/tags/orders-approximation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orders of approximation</title>
+      <link>https://stevengolovkine.github.io/math.md/1746801110-o-notation/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://stevengolovkine.github.io/math.md/1746801110-o-notation/</guid>
+      <description>&lt;h1 id=&#34;big-o-notation&#34;&gt;Big O notation&lt;/h1&gt;&#xA;&lt;p&gt;It describes the limiting behavior of a function when the argument tends toward a particular value or infinity. One writes&#xA;&lt;/p&gt;&#xA;$$f(x) = O(g(x)), \quad\text{as} x \rightarrow \infty.$$&lt;p&gt;In that case, we say that: $f(x)$ is of the order of $g(x)$. A characterization of that is&lt;/p&gt;&#xA;$$\exists M &gt; 0, \exists x_0 \in \mathbb{R} / \forall x \geq x_0, \left| f(x) \right| \leq M \left| g(x) \right|.$$</description>
+    </item>
+  </channel>
+</rss>
