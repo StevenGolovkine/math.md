@@ -2,10 +2,11 @@
 id: 1747311944-little-o-notation
 aliases:
   - Little-o notation
-tags:
+tags: []
+bibliography: assets/biblio.bib
+categories:
   - order-approximation
   - notation
-bibliography: assets/biblio.bib
 date: "2025-05-15"
 params:
   math: true

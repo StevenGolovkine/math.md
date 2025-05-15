@@ -8,7 +8,7 @@ caches:
   images:
     dir: :cacheDir/images
 
-theme: ['hugo-admonitions' ]
+theme: ['hugo-admonitions', 'hugo-cite' ]
 
 module:
   hugoVersion:

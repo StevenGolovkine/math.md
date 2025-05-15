@@ -2,10 +2,11 @@
 id: 1747313374-bachmann-landau-notation
 aliases:
   - bachmann-landau-notation
-tags:
+tags: []
+bibliography: assets/biblio.bib
+categories:
   - orders-approximation
   - notation
-bibliography: assets/biblio.bib
 date: "2025-05-15"
 params:
   math: true

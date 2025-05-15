@@ -2,7 +2,8 @@
 id: 1746727489-convergencecovfda
 aliases:
   - convergence_cov_fda
-tags:
+tags: []
+categories:
   - convergence-rate
   - covariance-function
   - functional-data

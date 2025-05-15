@@ -2,11 +2,12 @@
 id: 1746726871-convergencemeanfda
 aliases:
   - convergence_mean_fda
-tags:
+tags: []
+bibliography: assets/biblio.bib
+categories:
   - convergence-rate
   - mean-function
   - functional-data
-bibliography: assets/biblio.bib
 date: "2025-05-08"
 title: Convergence rate of the estimator of the mean function
 ---
