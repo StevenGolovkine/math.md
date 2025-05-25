@@ -35,6 +35,7 @@ This authors derive the asymptotic properties of the mean and covariance P-splin
 
 **Comments on Assumption 3:** (a) Fixed and regular grid. (b) Ensure we observe enough points per curve as the sample size increases. (c) Prevents overparametrization of the functional representation.
 
+### Random design
 
 {{< bibliography cited >}}
 
