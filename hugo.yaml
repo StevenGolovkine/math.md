@@ -1,6 +1,7 @@
 baseURL: "https://stevengolovkine.github.io/math.md"
 languageCode: "en-us"
 title: "math.md"
+author: "Steven Golovkine"
 copyright: "Steven Golovkine"
 enableRobotsTXT: true
 

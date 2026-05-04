@@ -101,7 +101,7 @@
 }
 
 .admonition.abstract > .admonition-content {
-  background-color: rgba(32, 159, 181, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -137,7 +137,7 @@
 }
 
 .admonition.caution > .admonition-content {
-  background-color: rgba(230, 69, 83, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -173,7 +173,7 @@
 }
 
 .admonition.code > .admonition-content {
-  background-color: rgba(114, 135, 253, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -209,7 +209,7 @@
 }
 
 .admonition.conclusion > .admonition-content {
-  background-color: rgba(221, 120, 120, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -245,7 +245,7 @@
 }
 
 .admonition.danger > .admonition-content {
-  background-color: rgba(254, 100, 11, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -281,7 +281,7 @@
 }
 
 .admonition.error > .admonition-content {
-  background-color: rgba(210, 15, 57, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -317,7 +317,7 @@
 }
 
 .admonition.example > .admonition-content {
-  background-color: rgba(220, 138, 120, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -353,7 +353,7 @@
 }
 
 .admonition.experiment > .admonition-content {
-  background-color: rgba(81, 187, 42, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -389,7 +389,7 @@
 }
 
 .admonition.goal > .admonition-content {
-  background-color: rgba(230, 69, 83, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -425,7 +425,7 @@
 }
 
 .admonition.idea > .admonition-content {
-  background-color: rgba(223, 142, 29, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -461,7 +461,7 @@
 }
 
 .admonition.important > .admonition-content {
-  background-color: rgba(125, 77, 218, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -497,7 +497,7 @@
 }
 
 .admonition.info > .admonition-content {
-  background-color: rgba(4, 165, 229, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -533,7 +533,7 @@
 }
 
 .admonition.memo > .admonition-content {
-  background-color: rgba(230, 69, 83, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -569,7 +569,7 @@
 }
 
 .admonition.note > .admonition-content {
-  background-color: rgba(9, 106, 225, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -605,7 +605,7 @@
 }
 
 .admonition.notify > .admonition-content {
-  background-color: rgba(13, 72, 189, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -641,7 +641,7 @@
 }
 
 .admonition.question > .admonition-content {
-  background-color: rgba(23, 146, 153, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -677,7 +677,7 @@
 }
 
 .admonition.quote > .admonition-content {
-  background-color: rgba(114, 135, 253, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -713,7 +713,7 @@
 }
 
 .admonition.success > .admonition-content {
-  background-color: rgba(64, 160, 43, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -749,7 +749,7 @@
 }
 
 .admonition.task > .admonition-content {
-  background-color: rgba(136, 57, 239, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -785,7 +785,7 @@
 }
 
 .admonition.tip > .admonition-content {
-  background-color: rgba(23, 146, 153, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -821,7 +821,7 @@
 }
 
 .admonition.warning > .admonition-content {
-  background-color: rgba(223, 142, 29, 0.1);
+  background-color: #ffffff;
   color: #000000;
 }
 
