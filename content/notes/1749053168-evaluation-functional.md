@@ -6,7 +6,7 @@ tags: []
 bibFile: assets/bibliography.json
 categories:
   - functional-analysis
-date: "2025-06-04"
+date: 2025-06-04
 params:
   math: true
 title: Evaluation Functional

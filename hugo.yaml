@@ -9,7 +9,7 @@ caches:
   images:
     dir: :cacheDir/images
 
-theme: ['hugo-cite' ]
+theme: ['hugo-admonitions', 'hugo-cite' ]
 
 module:
   hugoVersion:

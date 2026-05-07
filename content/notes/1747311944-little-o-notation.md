@@ -7,7 +7,7 @@ bibliography: assets/biblio.bib
 categories:
   - order-approximation
   - notation
-date: "2025-05-15"
+date: 2025-05-15
 params:
   math: true
 title: Little-o notation
@@ -21,15 +21,15 @@ In that case, we say that: $f(x)$ is of inferior order to $g(x)$. A characteriza
 
 $$\forall \epsilon > 0, \exists x_{0} \in \mathbb{R} / \forall x \geq x_{0}, \left| f(x) \right| \leq \epsilon g(x).$$
 
-> [!EXAMPLE] Example 
-> A polynomial function $f$ is a little-$0$ of its higher degree plus $1$ as $x \rightarrow \infty$. For all $n \in \mathbb{N}$,
-> $$f(x) = \sum_{i = 1}^{n} a_i x^{i} = o(x^{n + 1}) \quad x \rightarrow \infty.$$
+{{< admonition type="example" title="Example" >}}
+A polynomial function $f$ is a little-$0$ of its higher degree plus $1$ as $x \rightarrow \infty$. For all $n \in \mathbb{N}$,
+$$f(x) = \sum_{i = 1}^{n} a_i x^{i} = o(x^{n + 1}) \quad x \rightarrow \infty.$$
+{{< /admonition >}}
 
-
-> [!IMPORTANT] Properties
-> 1. If $c > 0$ and $f = o(g)$, then $c \cdot f = o(g)$.
-> 2. If $f = o(F)$ and $g = o(G)$, then $f \cdot g = o(F \cdot G)$.
-> 3. If $f = o(F)$ and $g = o(G)$, then $f + g = o(F + G)$.
-> 4. If $f = o(g)$ and $g = o(h)$, then $f = o(h)$.
-
+{{< admonition type="danger" title="Properties" >}}
+1. If $c > 0$ and $f = o(g)$, then $c \cdot f = o(g)$.
+2. If $f = o(F)$ and $g = o(G)$, then $f \cdot g = o(F \cdot G)$.
+3. If $f = o(F)$ and $g = o(G)$, then $f + g = o(F + G)$.
+4. If $f = o(g)$ and $g = o(h)$, then $f = o(h)$.
+{{< /admonition >}}
 

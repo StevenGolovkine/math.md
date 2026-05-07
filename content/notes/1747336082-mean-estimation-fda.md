@@ -7,7 +7,7 @@ bibFile: assets/bibliography.json
 categories:
   - mean
   - functional-data
-date: "2025-05-08"
+date: 2025-05-08
 params:
   math: true
 title: Mean function estimation
@@ -31,8 +31,9 @@ $$ \widehat{\alpha} = \left( B^{\top} W B + \lambda P \right)^{-1} B^{\top} W Y.
 The penalized spline estimate of the mean function is thus given by
 $$\widehat{\mu}(t) = B^{\top}(t)\widehat{\alpha}.$$
 
-> [!NOTE] 
-> Roughly speaking, we apply P-splines smoothing to the aggregation of all points.
+{{< admonition type="note" title="" >}}
+Roughly speaking, we apply P-splines smoothing to the aggregation of all points.
+{{< /admonition >}}
 
 
 
