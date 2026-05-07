@@ -14,7 +14,7 @@ title: Measure Theory
 
 # Introduction to measure theory
 
-The goal of measure theory is to make precise ideas like: `length`, `area`, `volume`, `probability`, `mass`, etc. For example, we know how to measure intervals: $[2, 5]$ has length $5 - 2 = 3$.
+The goal of measure theory is to make precise ideas like: *length*, *area*, *volume*, *probability*, *mass*, etc. For example, we know how to measure intervals: $[2, 5]$ has length $5 - 2 = 3$.
 
 Measure theory asks a much more general question :
 
