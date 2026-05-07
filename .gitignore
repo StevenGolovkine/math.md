@@ -1,14 +1,33 @@
 # .gitignore
 
-
-# macOS files
+# OS/editor
 .DS_Store
+.vscode/
+.idea/
 
-# LaTeX files
+# Local histories
+.Rhistory
+.RData
+.Rproj.user/
+
+# Logs
 *.log
+npm-debug.log*
 
-.scripts/*
+# Node
+node_modules/
+
+# Python/local scripts/cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.scripts/
+
+# Hugo output/cache
+public/
+docs/
+resources/_gen/
 .hugo_build.lock
-
-docs/*
-public/*
+.cache/
+.sass-cache/
