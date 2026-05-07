@@ -8,7 +8,7 @@ categories:
   - review
   - psplines
   - functional-data
-date: "2025-05-08"
+date: 2025-05-08
 params:
   math: true
 title: Asymptotic properties of penalized splines for functional data

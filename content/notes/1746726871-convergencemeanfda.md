@@ -8,7 +8,7 @@ categories:
   - convergence-rate
   - mean-function
   - functional-data
-date: "2025-05-08"
+date: 2025-05-08
 title: Convergence rate of the estimator of the mean function
 ---
 
