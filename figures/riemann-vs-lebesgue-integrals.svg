@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-labelledby="title desc">
+  <title id="title">Riemann and Lebesgue integral partitions</title>
+  <desc id="desc">Side-by-side plots of the same function. The Riemann integral partitions the domain into vertical intervals and builds rectangles. The Lebesgue integral partitions the range into horizontal value bands and measures the corresponding level sets in the domain.</desc>
+  <defs>
+    <marker id="axis-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1f2937"/>
+    </marker>
+    <style>
+      .background {
+        fill: #ffffff;
+      }
+
+      .divider {
+        stroke: #d1d5db;
+        stroke-width: 2;
+      }
+
+      .title {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .subtitle {
+        fill: #374151;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        text-anchor: middle;
+      }
+
+      .axis {
+        stroke: #1f2937;
+        stroke-width: 3;
+        stroke-linecap: round;
+        marker-end: url(#axis-arrow);
+      }
+
+      .axis-label {
+        fill: #374151;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        text-anchor: middle;
+      }
+
+      .curve {
+        fill: none;
+        stroke: #111827;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .riemann-rect {
+        fill: #93c5fd;
+        fill-opacity: 0.5;
+        stroke: #2563eb;
+        stroke-width: 2;
+      }
+
+      .domain-cut {
+        stroke: #2563eb;
+        stroke-width: 2;
+        stroke-dasharray: 5 6;
+      }
+
+      .domain-piece {
+        stroke: #2563eb;
+        stroke-width: 7;
+        stroke-linecap: round;
+      }
+
+      .range-cut {
+        stroke: #6b7280;
+        stroke-width: 2;
+        stroke-dasharray: 5 6;
+      }
+
+      .band-low {
+        fill: #facc15;
+        fill-opacity: 0.28;
+      }
+
+      .band-mid-low {
+        fill: #fb923c;
+        fill-opacity: 0.25;
+      }
+
+      .band-mid {
+        fill: #f87171;
+        fill-opacity: 0.24;
+      }
+
+      .band-mid-high {
+        fill: #34d399;
+        fill-opacity: 0.24;
+      }
+
+      .band-high {
+        fill: #818cf8;
+        fill-opacity: 0.25;
+      }
+
+      .level-segment {
+        fill: none;
+        stroke-width: 7;
+        stroke-linecap: round;
+      }
+
+      .level-low {
+        stroke: #ca8a04;
+      }
+
+      .level-mid-low {
+        stroke: #ea580c;
+      }
+
+      .level-mid {
+        stroke: #dc2626;
+      }
+
+      .level-mid-high {
+        stroke: #059669;
+      }
+
+      .level-high {
+        stroke: #4f46e5;
+      }
+
+      .callout {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-anchor: middle;
+      }
+
+      .side-callout {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <rect class="background" width="1000" height="440"/>
+  <line class="divider" x1="500" y1="34" x2="500" y2="410"/>
+
+  <g id="riemann-integral">
+    <text class="title" x="255" y="42">Riemann integral</text>
+    <text class="subtitle" x="255" y="68">cut the domain into intervals</text>
+
+    <line class="axis" x1="95" y1="330" x2="455" y2="330"/>
+    <line class="axis" x1="105" y1="340" x2="105" y2="84"/>
+    <text class="axis-label" x="455" y="358">x</text>
+    <text class="axis-label" x="76" y="92">f(x)</text>
+
+    <g aria-label="Vertical rectangles built from domain intervals">
+      <rect class="riemann-rect" x="105" y="258" width="45" height="72"/>
+      <rect class="riemann-rect" x="150" y="225" width="45" height="105"/>
+      <rect class="riemann-rect" x="195" y="172" width="45" height="158"/>
+      <rect class="riemann-rect" x="240" y="125" width="45" height="205"/>
+      <rect class="riemann-rect" x="285" y="122" width="45" height="208"/>
+      <rect class="riemann-rect" x="330" y="135" width="45" height="195"/>
+      <rect class="riemann-rect" x="375" y="110" width="50" height="220"/>
+    </g>
+
+    <g aria-label="Domain partition lines">
+      <line class="domain-cut" x1="105" y1="96" x2="105" y2="330"/>
+      <line class="domain-cut" x1="150" y1="96" x2="150" y2="330"/>
+      <line class="domain-cut" x1="195" y1="96" x2="195" y2="330"/>
+      <line class="domain-cut" x1="240" y1="96" x2="240" y2="330"/>
+      <line class="domain-cut" x1="285" y1="96" x2="285" y2="330"/>
+      <line class="domain-cut" x1="330" y1="96" x2="330" y2="330"/>
+      <line class="domain-cut" x1="375" y1="96" x2="375" y2="330"/>
+      <line class="domain-cut" x1="425" y1="96" x2="425" y2="330"/>
+    </g>
+
+    <path class="curve" d="M 105 300 C 130 250 155 270 180 220 C 205 165 235 185 260 125 C 285 80 315 150 338 130 C 365 105 395 160 425 105"/>
+
+    <g aria-label="Domain interval pieces">
+      <line class="domain-piece" x1="105" y1="357" x2="150" y2="357"/>
+      <line class="domain-piece" x1="150" y1="357" x2="195" y2="357"/>
+      <line class="domain-piece" x1="195" y1="357" x2="240" y2="357"/>
+      <line class="domain-piece" x1="240" y1="357" x2="285" y2="357"/>
+      <line class="domain-piece" x1="285" y1="357" x2="330" y2="357"/>
+      <line class="domain-piece" x1="330" y1="357" x2="375" y2="357"/>
+      <line class="domain-piece" x1="375" y1="357" x2="425" y2="357"/>
+    </g>
+    <text class="callout" x="265" y="398">sum rectangle areas over x-intervals</text>
+  </g>
+
+  <g id="lebesgue-integral">
+    <text class="title" x="745" y="42">Lebesgue integral</text>
+    <text class="subtitle" x="745" y="68">cut the range into values</text>
+
+    <line class="axis" x1="585" y1="330" x2="945" y2="330"/>
+    <line class="axis" x1="595" y1="340" x2="595" y2="84"/>
+    <text class="axis-label" x="945" y="358">x</text>
+    <text class="axis-label" x="566" y="92">f(x)</text>
+
+    <g aria-label="Horizontal range value bands">
+      <rect class="band-low" x="595" y="280" width="330" height="50"/>
+      <rect class="band-mid-low" x="595" y="230" width="330" height="50"/>
+      <rect class="band-mid" x="595" y="180" width="330" height="50"/>
+      <rect class="band-mid-high" x="595" y="130" width="330" height="50"/>
+      <rect class="band-high" x="595" y="90" width="330" height="40"/>
+    </g>
+
+    <g aria-label="Range partition lines">
+      <line class="range-cut" x1="595" y1="280" x2="925" y2="280"/>
+      <line class="range-cut" x1="595" y1="230" x2="925" y2="230"/>
+      <line class="range-cut" x1="595" y1="180" x2="925" y2="180"/>
+      <line class="range-cut" x1="595" y1="130" x2="925" y2="130"/>
+      <line class="range-cut" x1="595" y1="90" x2="925" y2="90"/>
+    </g>
+
+    <path class="curve" d="M 595 300 C 620 250 645 270 670 220 C 695 165 725 185 750 125 C 775 80 805 150 828 130 C 855 105 885 160 915 105"/>
+
+    <text class="side-callout" x="546" y="214" transform="rotate(-90 546 214)">range values</text>
+
+    <g aria-label="Level sets corresponding to range bands">
+      <line class="level-segment level-low" x1="595" y1="354" x2="632" y2="354"/>
+      <line class="level-segment level-mid-low" x1="625" y1="367" x2="675" y2="367"/>
+      <line class="level-segment level-mid" x1="668" y1="380" x2="720" y2="380"/>
+      <line class="level-segment level-mid" x1="803" y1="380" x2="838" y2="380"/>
+      <line class="level-segment level-mid-high" x1="708" y1="393" x2="762" y2="393"/>
+      <line class="level-segment level-mid-high" x1="822" y1="393" x2="875" y2="393"/>
+      <line class="level-segment level-high" x1="748" y1="406" x2="804" y2="406"/>
+      <line class="level-segment level-high" x1="873" y1="406" x2="915" y2="406"/>
+    </g>
+    <text class="callout" x="755" y="428">measure level sets on the domain</text>
+  </g>
+</svg>
