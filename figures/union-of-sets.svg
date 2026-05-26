@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Union of two sets</title>
+  <desc id="desc">A Venn diagram inside a universe X. Two overlapping sets A and B are shaded to show that the union contains every point in A, every point in B, and the points in both sets.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      .background {
+        fill: #ffffff;
+      }
+
+      .universe {
+        fill: #f8fafc;
+        stroke: #1f2937;
+        stroke-width: 3;
+      }
+
+      .set-fill {
+        fill: #60a5fa;
+        fill-opacity: 0.42;
+      }
+
+      .set-a-outline {
+        fill: none;
+        stroke: #1d4ed8;
+        stroke-width: 5;
+      }
+
+      .set-b-outline {
+        fill: none;
+        stroke: #ea580c;
+        stroke-width: 5;
+      }
+
+      .overlap {
+        fill: #2563eb;
+        fill-opacity: 0.32;
+      }
+
+      .outside-point {
+        fill: #94a3b8;
+        stroke: #ffffff;
+        stroke-width: 3;
+      }
+
+      .inside-point {
+        fill: #111827;
+        stroke: #ffffff;
+        stroke-width: 3;
+      }
+
+      .callout-line {
+        fill: none;
+        stroke: #334155;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+        marker-end: url(#arrow);
+      }
+
+      .title {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .formula {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        text-anchor: middle;
+      }
+
+      .label {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .small-label {
+        fill: #374151;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-anchor: middle;
+      }
+
+      .callout {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <rect class="background" width="900" height="520"/>
+
+  <text class="title" x="450" y="46">Union of sets</text>
+  <text class="formula" x="450" y="84">A &#8746; B = elements in A or B, including both</text>
+
+  <rect class="universe" x="95" y="120" width="710" height="295" rx="8"/>
+  <text class="label" x="130" y="154">X</text>
+
+  <g aria-label="Union of A and B">
+    <circle class="set-fill" cx="360" cy="270" r="130"/>
+    <circle class="set-fill" cx="540" cy="270" r="130"/>
+    <path class="overlap" d="M 450 174.2 C 474.7 197.9 490 231.3 490 270 C 490 308.7 474.7 342.1 450 365.8 C 425.3 342.1 410 308.7 410 270 C 410 231.3 425.3 197.9 450 174.2 Z"/>
+    <circle class="set-a-outline" cx="360" cy="270" r="130"/>
+    <circle class="set-b-outline" cx="540" cy="270" r="130"/>
+  </g>
+
+  <text class="label" x="286" y="202">A</text>
+  <text class="label" x="614" y="202">B</text>
+
+  <text class="small-label" x="337" y="274">only A</text>
+  <text class="small-label" x="450" y="274">both</text>
+  <text class="small-label" x="563" y="274">only B</text>
+
+  <circle class="inside-point" cx="310" cy="310" r="8"/>
+  <circle class="inside-point" cx="450" cy="310" r="8"/>
+  <circle class="inside-point" cx="590" cy="310" r="8"/>
+  <circle class="outside-point" cx="705" cy="334" r="8"/>
+  <text class="small-label" x="705" y="364">not in A &#8746; B</text>
+
+  <path class="callout-line" d="M 188 460 C 250 432 294 388 326 322"/>
+  <text class="callout" x="190" y="482">points in A are included</text>
+
+  <path class="callout-line" d="M 450 460 C 450 424 450 370 450 322"/>
+  <text class="callout" x="450" y="482">overlap is included once</text>
+
+  <path class="callout-line" d="M 712 460 C 650 432 606 388 574 322"/>
+  <text class="callout" x="710" y="482">points in B are included</text>
+</svg>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Complement of a set</title>
+  <desc id="desc">A Venn diagram inside a universe X. The region outside set A is shaded to show that the complement contains exactly the points in X that are not in A.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      .background {
+        fill: #ffffff;
+      }
+
+      .universe-fill {
+        fill: #f8fafc;
+      }
+
+      .universe-outline {
+        fill: none;
+        stroke: #1f2937;
+        stroke-width: 3;
+      }
+
+      .complement-fill {
+        fill: #60a5fa;
+        fill-opacity: 0.42;
+      }
+
+      .set-fill {
+        fill: #f8fafc;
+      }
+
+      .set-outline {
+        fill: none;
+        stroke: #1d4ed8;
+        stroke-width: 5;
+      }
+
+      .outside-point {
+        fill: #111827;
+        stroke: #ffffff;
+        stroke-width: 3;
+      }
+
+      .excluded-point {
+        fill: #94a3b8;
+        stroke: #ffffff;
+        stroke-width: 3;
+      }
+
+      .callout-line {
+        fill: none;
+        stroke: #334155;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+        marker-end: url(#arrow);
+      }
+
+      .title {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .formula {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        text-anchor: middle;
+      }
+
+      .label {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .small-label {
+        fill: #374151;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-anchor: middle;
+      }
+
+      .callout {
+        fill: #111827;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <rect class="background" width="900" height="520"/>
+
+  <text class="title" x="450" y="46">Complement of a set</text>
+  <text class="formula" x="450" y="84">A<tspan baseline-shift="super" font-size="16">c</tspan> = X \ A = elements in X but not in A</text>
+
+  <rect class="universe-fill" x="95" y="120" width="710" height="295" rx="8"/>
+  <rect class="complement-fill" x="95" y="120" width="710" height="295" rx="8"/>
+
+  <g aria-label="Set A excluded from its complement">
+    <circle class="set-fill" cx="450" cy="270" r="130"/>
+    <circle class="set-outline" cx="450" cy="270" r="130"/>
+  </g>
+
+  <rect class="universe-outline" x="95" y="120" width="710" height="295" rx="8"/>
+  <text class="label" x="130" y="154">X</text>
+  <text class="label" x="450" y="202">A</text>
+
+  <text class="small-label" x="450" y="274">not included</text>
+  <text class="small-label" x="650" y="274">included in A<tspan baseline-shift="super" font-size="12">c</tspan></text>
+
+  <circle class="excluded-point" cx="450" cy="310" r="8"/>
+  <circle class="outside-point" cx="650" cy="310" r="8"/>
+  <circle class="outside-point" cx="250" cy="248" r="8"/>
+  <circle class="outside-point" cx="706" cy="348" r="8"/>
+
+  <path class="callout-line" d="M 205 460 C 216 410 230 330 250 260"/>
+  <text class="callout" x="205" y="482">points outside A are included</text>
+
+  <path class="callout-line" d="M 450 460 C 450 424 450 370 450 322"/>
+  <text class="callout" x="450" y="482">points in A are excluded</text>
+
+  <path class="callout-line" d="M 704 460 C 690 420 671 362 654 322"/>
+  <text class="callout" x="704" y="482">everything shaded is A<tspan baseline-shift="super" font-size="12">c</tspan></text>
+</svg>
