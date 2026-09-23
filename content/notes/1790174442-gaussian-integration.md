@@ -9,7 +9,7 @@ categories:
 date: 2026-09-23
 params:
   math: true
-title: gaussian-integration
+title: "Gaussian integration"
 ---
 
 Let $Y$ be a $\mathcal{N}(0, 1)$ real random variable and let $g: \mathbb{R} \mapsto \mathbb{R}$ be an indefinite integral of the Lebesgue measurable function $g^\prime$, essentially the derivative of $g$ (meaning that $g$ is absolutely continuous). Assume $E | g^\prime(Y) | < \infty$. Then,
