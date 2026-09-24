@@ -3296,3 +3296,11 @@ footer a:hover {
     padding: 1.5rem;
   }
 }
+
+/* Allow long display equations to scroll horizontally */
+.katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.5em;
+}
